@@ -1,2 +1,2 @@
 # Linux_
-git config
+git config_tesghgfglglglg
