@@ -1,6 +1,3 @@
-Here is the updated **Markdown (.md) code** with an image example added under the `cp` command section. You can copy and save this as `file_commands.md`.
-
-> 🖼️ For the image, you'll need to save a local or web-hosted image. I’ll use a placeholder path `images/cp-example.png`. Replace it with your actual image file path or URL.
 
 ---
 
@@ -20,6 +17,10 @@ touch file1.txt
 ````
 
 This creates an empty file named `file1.txt` in the current directory.
+<img width="1116" height="191" alt="touch" src="https://github.com/user-attachments/assets/3a629017-8d0c-43ce-9033-dc795f1592ff" />
+
+
+
 
 ---
 
@@ -39,9 +40,8 @@ This creates a copy of `file1.txt` named `backup_file.txt` in the same directory
 
 ### 🖼️ Visual Example:
 
-![cp command example](images/cp-example.png)
+<img width="836" height="149" alt="cpp" src="https://github.com/user-attachments/assets/5eeb67ca-6b91-4e10-a82a-71d1aab04f3b" />
 
-> Replace `images/cp-example.png` with the actual image file path or URL.
 
 ---
 
@@ -61,13 +61,8 @@ mv file1.txt Documents/
 
 This moves `file1.txt` into the `Documents` folder.
 
-### 🧪 Example: Renaming a file
+<img width="765" height="212" alt="mvv" src="https://github.com/user-attachments/assets/2210fe1c-a352-4b5e-b823-65b38b83160a" />
 
-```bash
-mv file1.txt file_renamed.txt
-```
-
-This renames the file to `file_renamed.txt`.
 
 ---
 
