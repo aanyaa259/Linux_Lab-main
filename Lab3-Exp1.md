@@ -2,10 +2,11 @@
 
 ```bash
 >>pwd
-
 ```
 Output:
+```
 https://github.com/aanyaa259/Linux_Lab-main.git
+```
 
 # ls command
 ```bash
@@ -13,5 +14,15 @@ https://github.com/aanyaa259/Linux_Lab-main.git
 ```
 
 Output:
+```
 first.md        Lab3-Exp1.md    README.md
+```
+# ls flags
+The ls command is linux allows to to view all the files and folder in current working directory. Flag -a list down all file and folder including the one which are hidden
+```bash
+>>ls -la
+```
+Output:
+![alttext](/aa.png)
+
 
