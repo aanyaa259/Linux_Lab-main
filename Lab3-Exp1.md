@@ -23,7 +23,7 @@ The ls command is linux allows to to view all the files and folder in current wo
 >>ls -la
 ```
 Output:
-![alttext](/aa-1.png)
+![alttext](/aa.png)
 
 
 
