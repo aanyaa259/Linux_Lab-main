@@ -24,7 +24,7 @@ The ls command is linux allows to to view all the files and folder in current wo
 ```
 Output:
 ![alttext](/aa.png)
-/hi
+
 
 
 
