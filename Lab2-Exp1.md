@@ -62,13 +62,4 @@ mv file1.txt Documents/
 This moves `file1.txt` into the `Documents` folder.
 
 <img width="765" height="212" alt="mvv" src="https://github.com/user-attachments/assets/2210fe1c-a352-4b5e-b823-65b38b83160a" />
-
-
 ---
-
-```
-
----
-
-
-```
