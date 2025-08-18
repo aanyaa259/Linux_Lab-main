@@ -1,3 +1,4 @@
+# Users and Groups
 ## ✅ 1. Users in Linux
 
 A user in Linux represents an individual account, and each user can be assigned specific permissions to access files, execute programs, and interact with the system.

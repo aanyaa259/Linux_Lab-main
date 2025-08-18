@@ -1,4 +1,4 @@
-# Intermediate and Advanced Terminal cOMANDS
+# Intermediate and Advanced Terminal Commands
 ## ✅ 1. sudo – Run Commands as Administrator
 
 sudo (SuperUser DO) allows you to run commands with root privileges.
