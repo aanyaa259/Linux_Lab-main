@@ -1,6 +1,7 @@
 # 🐚 Shell Scripting Basics 
+
 Shell scripting allows you to automate tasks in Linux/Unix by writing commands inside a file that the shell executes line by line.
-----
+
 
 ## 1. 🔹 What is a Shell Script?
 A shell is a command-line interpreter (e.g., bash, zsh, sh).
@@ -23,6 +24,7 @@ chmod +x hello.sh   # make it executable
 **Output:**
 
 ![alttext](./1_script_output.png)
+***
 
 ## 2. 🔹 Variables
 Variables store data (text, numbers, paths, etc.).
@@ -61,6 +63,7 @@ echo "You chose $lang"
 ```
 Output:
 ![alttext](./3_output.png)
+---
 
 ## 4. 🔹 Conditional Statements (if-else)
 ```bash
@@ -133,6 +136,7 @@ Output:
 ```bash
 Hello, Aanya Welcome to linux lab
 ```
+---
 ## 7. 🔹 Command Line Arguments
 Access arguments passed to script:
 ```bash
@@ -145,13 +149,15 @@ echo "Number of arguments: $#"
 ```
 Run:
 ```bash
-./script.sh apple banana
+./7_script.sh mon tues
 ```
 Output:
 ```bash
-Script name: ./script.sh
-First argument: apple
-Second argument: banana
-All arguments: apple banana
+Script name: ./7_script.sh
+First argument: mon
+Second argument: tues
+All arguments: mon tues
 Number of arguments: 2
 ```
+![alttext](./7_output.png)
+---
