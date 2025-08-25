@@ -41,7 +41,7 @@ Add them up:
 4 = r--
 0 = ---
 *Example:*
-![alttext](<./Screenshot 2025-08-19 at 1.19.43 PM.png>)
+![alttext](<./images/Screenshot 2025-08-19 at 1.19.43 PM.png>)
 Meaning:
 
 Owner: 7 → rwx
@@ -56,7 +56,7 @@ Operators:
 - -→ Remove permission
 - =→ Assign exact permission
 Example:
-![alttext](<./Screenshot 2025-08-19 at 1.24.16 PM.png>)
+![alttext](<./images/Screenshot 2025-08-19 at 1.24.16 PM.png>)
 ---
 
 ## ⚫️ 3. `chown`-Change File Ownership 
@@ -64,9 +64,9 @@ Example:
 chown [options] new_owner:new_group filename
 ```
 *Examples:*
-![alttext](<./Screenshot 2025-08-19 at 1.43.35 PM.png>)
+![alttext](<./images/Screenshot 2025-08-19 at 1.43.35 PM.png>)
 
-![alttext](<./Screenshot 2025-08-19 at 1.52.04 PM.png>)
+![alttext](<./images/Screenshot 2025-08-19 at 1.52.04 PM.png>)
 ---
 
 ## ⚫️ 4. Putting It All Together

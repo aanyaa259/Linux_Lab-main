@@ -23,7 +23,7 @@ The ls command is linux allows to to view all the files and folder in current wo
 >>ls -la
 ```
 Output:
-![alttext](<./Screenshot 2025-08-18 at 6.25.21 PM.png>)
+![alttext](<./images/Screenshot 2025-08-18 at 6.25.21 PM.png>)
 
 
 
