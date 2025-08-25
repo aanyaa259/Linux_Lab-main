@@ -1,10 +1,10 @@
-## Shell Tutorial- File Permissions with chmod and chown
+# Shell Tutorial- File Permissions with `chmod` and `chown`
 ---
-# 1. Understanding File Permissions in Linux
+## ⚫️ 1. Understanding File Permissions in Linux
 Each file/directory in Linux has:
-- Owner → The user who created the file.
-- Group → A group of users who may share access.
-- Others → Everyone else.
+- *Owner* → The user who created the file.
+- *Group* → A group of users who may share access.
+- *Others* → Everyone else.
 **Permission Types**
 - r → Read (4 in numeric)
 - w → Write (2 in numeric)
@@ -21,7 +21,7 @@ Breakdown:
 * r-x → Group has read, execute
 * r-- → Others have read only
 ---
-# 2.chmod- Change File Permissions
+## ⚫️ 2.`chmod`- Change File Permissions
 *Syntax*
 ```bash
 chmod [options] mode filename
@@ -57,8 +57,9 @@ Operators:
 - =→ Assign exact permission
 Example:
 ![alttext](<./Screenshot 2025-08-19 at 1.24.16 PM.png>)
+---
 
-## 3. `chown`-Change File Ownership 
+## ⚫️ 3. `chown`-Change File Ownership 
 ```bash
 chown [options] new_owner:new_group filename
 ```
@@ -66,8 +67,9 @@ chown [options] new_owner:new_group filename
 ![alttext](<./Screenshot 2025-08-19 at 1.43.35 PM.png>)
 
 ![alttext](<./Screenshot 2025-08-19 at 1.52.04 PM.png>)
+---
 
-## 4. Putting It All Together
+## ⚫️ 4. Putting It All Together
 Example:
 ```bash
 touch av.txt
@@ -78,16 +80,15 @@ ls -l
 -rw-rw-r-- 1 aanya aanya 0 Aug 19 13:39 av.txt
 ```
 
-## 5. Quick Reference Tab
+ ## ⚫️ 5. Quick Reference Tab
 
-|Numeric	Permission	Meaning
-|0	---	No access
-|1	--x	Execute only
-|2	-w-	Write only
-|3	-wx	Write + Exec
-|4	r--	Read only
-|5	r-x	Read + Exec
-|6	rw-	Read + Write
-|7	rwx	Full access
-
-
+| Numeric    | Permission | Meaning |
+|:----------|:--------:|------:|
+| 0    | ---      | No access |
+| 1    | --x       | Execute only |
+| 2    | -w-      | Write only |
+| 3    | -wx.     |Write+Exec|
+| 4    | r--      |Read Only |
+| 5    | r-x      |Read + Exec|
+| 6    | rw-      |Read + Write|
+| 7    | rwx      |Full access|
