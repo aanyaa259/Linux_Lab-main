@@ -38,6 +38,10 @@ Running the following commands on ubuntu-
 
 ![alttext](<./Screenshot 2025-09-06 at 1.59.26 PM.png>)
 
+## Ubuntu first login
+
+![alttext](<./Screenshot 2025-09-06 at 2.44.01 PM.png>)
+
 
 
 ## Challanges Faced
