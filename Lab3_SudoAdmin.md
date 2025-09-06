@@ -12,7 +12,7 @@ sudo apt update      # Run package update as admin
 sudo reboot          # Reboot system
 ```
 You'll usually be prompted to enter your password.
----
+
 
 ## ✅ 2. User Management (Linux/macOS only)
 
@@ -21,30 +21,28 @@ You'll usually be prompted to enter your password.
 sudo adduser newusername
 ```
 You’ll be prompted to set a password and user info.
+![alttext](./adduser.png)
 
 🔑 passwd – Change User Password
 ```bash
 sudo passwd newusername
 ```
+![alttext](./psswd.png)
 👥 usermod – Modify User Account
 
 Add a user to a group:
 ```bash
 sudo usermod -aG groupname username
 ```
-```bash
-Example:
 
-sudo usermod -aG sudo alice     # Give 'alice' sudo access
 ❌ deluser – Delete a User
-```
 
-sudo deluser username
 To remove the user's home directory:
 ```bash
 sudo deluser --remove-home username
 ```
----
+![alttext](./deluser-1.png)
+
 ## ✅ 3. File Permissions with chmod and chown
 
 🔐 chmod – Change File Permissions
@@ -82,7 +80,7 @@ Example:
 
 sudo chown alice:alice myfile.txt
 ```
----
+
 
 ## ✅ 4. Disk Usage & System Info
 
@@ -91,6 +89,7 @@ sudo chown alice:alice myfile.txt
 df -h
 ```
 Shows mounted partitions with human-readable sizes.
+![alttext](./df-h.png)
 
 📁 du – Directory Size
 ```bash
@@ -103,7 +102,7 @@ top
 Press q to quit.
 
 Alternative: htop (better UI, needs to be installed)
----
+
 
 ## ✅ 5. Networking Commands
 
@@ -117,7 +116,8 @@ Press CTRL + C to stop.
 ```bash
 ip a
 ```
-ifconfig   # May require sudo or installation
+![alttext](./ip_a.png)
+
 🔍 netstat – Show Active Network Connections
 ```bash
 netstat -tuln
@@ -126,7 +126,7 @@ Or use:
 ```bash
 ss -tuln   # Faster alternative
 ```
----
+
 
 ## ✅ 6. Package Management
 
@@ -142,7 +142,7 @@ For macOS (Homebrew):
 brew install git
 
 ```
----
+
 
 ## ✅ 7. Process Management
 
@@ -163,7 +163,7 @@ Force kill:
 ```bash
 kill -9 12345
 ```
----
+
 ## ✅ 8. Shutdown and Reboot
 ```bash
 sudo shutdown now        # Immediate shutdown

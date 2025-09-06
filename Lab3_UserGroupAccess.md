@@ -36,8 +36,9 @@ _Secondary Groups_: A user can belong to multiple groups. Secondary groups provi
 
 For example, the user alice might also be part of the group developers, giving her additional access to certain files.
 System Group Similar to system users, system groups are used for special purposes (e.g., service groups like www-data, mysql, etc.).
-
 These groups often don’t have interactive logins and are associated with system processes.
+
+
 ---
 ## ✅ 3. Creating and Managing Users & Groups
 
@@ -96,9 +97,9 @@ To list all groups:
 cat /etc/group
 ```
 This will display a list of groups on the system, including their associated users.
----
 
-**✅ 4. File Permissions and Groups**
+
+## ✅ 4. File Permissions and Groups
 
 Linux permissions are often set based on users and groups. These permissions control who can read, write, or execute a file.
 
@@ -123,7 +124,7 @@ sudo chown :developers file.txt
 This changes the group associated with file.txt to the developers group.
 ---
 
-**✅ 5. Default Groups and User IDs (UIDs)**
+## ✅ 5. Default Groups and User IDs (UIDs)
 
 UID 0: Root user (root).
 UID 1000 and higher: Regular users.
@@ -138,17 +139,17 @@ Example:
 id alice
 ```
 This will show the UID, GID, and the groups that alice is part of.
----
 
-**✅ 6. Special Groups in Linux**
+
+## ✅ 6. Special Groups in Linux
 
 *sudo or wheel group*: Members of this group have the ability to run commands as the root user using sudo.
 *www-data*: The web server (e.g., Apache) often runs under this user and group.
 *staff*: Common on macOS, often used to grant additional permissions to users.
 *sudo or admin*: Users in these groups have administrative privileges.
----
 
-**✅ 7. Deleting Users and Groups**
+
+## ✅ 7. Deleting Users and Groups
 
 - Delete a User
 
@@ -158,14 +159,16 @@ sudo deluser --remove-home username
 ```
 This deletes the user and removes their home directory.
 
+![alttext](./deluser.png)
+
 - Delete a Group
 
 To delete a group:
 ```bash
 sudo delgroup groupname
 ```
----
-***Summary***
+
+## Summary
 
 Users are individual accounts in Linux.
 
