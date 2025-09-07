@@ -48,6 +48,7 @@ Use the adduser command to create a new user and assign it a home directory.
 ```bash
 sudo adduser newuser
 ```
+![alttext](images/adduser.png)
 This will create a user named newuser and ask you to set a password and other details. The primary group for the user will also be created with the same name.
 
 - **Create a New Group**
@@ -159,7 +160,7 @@ sudo deluser --remove-home username
 ```
 This deletes the user and removes their home directory.
 
-![alttext](./deluser.png)
+![alttext](./images/deluser.png)
 
 - Delete a Group
 

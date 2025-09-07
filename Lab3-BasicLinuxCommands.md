@@ -5,7 +5,7 @@ Shows the current location in the filesystem.
 ```bash
 pwd
 ```
-![alttext](./pwd.png)
+![alttext](./images/pwd.png)
 📌 Output example:
 
 ### `ls` – List Directory Contents
@@ -19,7 +19,7 @@ ls -l → Detailed list (permissions, size, date)
 ls -a → Shows hidden files (those starting with .)
 ls -la → Combined
 ```
-![alttext](./ls.png)
+![alttext](./images/ls.png)
 
 ### `cd` – Change Directory
 Moves into a directory.
@@ -33,7 +33,7 @@ cd ..               # Go up one level
 cd /                # Go to root
 cd ~                # Go to home directory
 ```
-![alttext](./cd.png)
+![alttext](./images/cd.png)
 
 ## ✅ 2. File and Directory Management
 mkdir – Make Directory
@@ -47,7 +47,7 @@ Creates an empty file.
 ```bash
 touch file.txt
 ```
-![alttext](./tch.png)
+![alttext](./images/tch.png)
 
 ### `cp` – Copy Files or Directories
 ```bash
@@ -74,7 +74,7 @@ Displays content in terminal.
 ```bash
 cat file.txt
 ```
-![alttext](./cat.png)
+![alttext](./images/cat.png)
 ### `nano` – Edit Files in Terminal
 A basic terminal-based text editor.
 ```bash

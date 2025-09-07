@@ -21,13 +21,13 @@ You'll usually be prompted to enter your password.
 sudo adduser newusername
 ```
 You’ll be prompted to set a password and user info.
-![alttext](./adduser.png)
+![alttext](./images/adduser.png)
 
 🔑 passwd – Change User Password
 ```bash
 sudo passwd newusername
 ```
-![alttext](./psswd.png)
+![alttext](./images/psswd.png)
 👥 usermod – Modify User Account
 
 Add a user to a group:
@@ -41,7 +41,7 @@ To remove the user's home directory:
 ```bash
 sudo deluser --remove-home username
 ```
-![alttext](./deluser-1.png)
+![alttext](./images/deluser-1.png)
 
 ## ✅ 3. File Permissions with chmod and chown
 
@@ -89,7 +89,7 @@ sudo chown alice:alice myfile.txt
 df -h
 ```
 Shows mounted partitions with human-readable sizes.
-![alttext](./df-h.png)
+![alttext](./images/df-h.png)
 
 📁 du – Directory Size
 ```bash
@@ -116,7 +116,7 @@ Press CTRL + C to stop.
 ```bash
 ip a
 ```
-![alttext](./ip_a.png)
+![alttext](./images/ip_a.png)
 
 🔍 netstat – Show Active Network Connections
 ```bash
