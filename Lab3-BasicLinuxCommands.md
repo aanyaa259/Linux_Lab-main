@@ -57,6 +57,7 @@ cp source.txt destination.txt
 ```bash
 cp -r folder1 folder2
 ```
+![alttext](./images/cp.png)
 
 ### `mv` – Move or Rename Files
 ```bash
@@ -66,6 +67,11 @@ rm – Remove Files
 rm file.txt          # Delete file
 rm -r folder_name    # Delete folder (recursively)
 ```
+
+![alttext](./images/rm.png)
+
+![alttext](./images/mv.png)
+
 ⚠️ Be careful! There is no undo.
 
 ## ✅ 3. File Viewing & Editing
