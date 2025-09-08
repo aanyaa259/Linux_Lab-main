@@ -45,8 +45,8 @@ Which prints each color with the prefix "Color:".
 ```bash
 #!/bin/bash
 echo "Hello, World!"
-name="Vibhu"
-age=37
+name="Aanya"
+age=18
 
 echo "My name is $name and I am $age years old."wq
 ```
@@ -67,7 +67,7 @@ echo "My name is $name and I am $age years old."wq
 `$name` and `$age` are expanded to their values.
 
 ### Output 2-
-![alttext](../images/2_script_output.png)
+![alttext](./2_script_output.png)
 
 ## Extra Questions
 
