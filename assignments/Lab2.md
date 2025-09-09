@@ -56,11 +56,11 @@ echo "My name is $name and I am $age years old."wq
 
 **2.** `echo "Hello, World!"` → Prints the classic “Hello, World!” message.
 
-**3.** `name="Vibhu"` and `age=37` → Define two variables:
+**3.** `name="Aanya"` and `age=18` → Define two variables:
 
-* name stores the string "Vibhu"
+* name stores the string "Aanya"
 
-* age stores the number 37
+* age stores the number 18
 
 **4.** `echo "My name is $name and I am $age years old."` → Prints a sentence that uses the variables.
 
