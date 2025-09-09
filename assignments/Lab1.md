@@ -164,6 +164,7 @@ Useful for debugging or scripting.
 echo "Hello, World!"
 ```
 Output:
+```bash
 Hello, World!
 ```
 ---
@@ -194,13 +195,27 @@ Use `q` to quit the manual.
 ### `find` – Locate Files
 
 ```bash
-find . -name "*.txt"
+find . -name "*.md"
 ```
 
-🔍 Finds all `.txt` files in current folder and subfolders.
+🔍 Finds all `.md` files in current folder and subfolders.
 
 ---
-
+Output:
+```bash
+./assignments/Lab0.md
+./assignments/Lab1.md
+./assignments/Lab2.md
+./assignments/Lab3.md
+./README.md
+./Lab6-Exp1.md
+./Lab7.md
+./Lab3_SudoAdmin.md
+./Lab3-BasicLinuxCommands.md
+./Lab5-Exp1.md
+./Lab3_UserGroupAccess.md
+./Lab4-Exp1.md
+```
 ### `grep` – Search Inside Files
 
 ```bash
