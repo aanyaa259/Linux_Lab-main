@@ -1,4 +1,4 @@
-# LAB0
+# LAB-0 INSTALL LINUX (UBUNTU)
 ## Step 1 - Download and Set up VirtualBox
 * Go to VirtualBox website here to download the binary for your current operating system. Since our host machine is running on mac OS, I'll choose it . When download is finished, run the executable file. Continue with the installation of VirtualBox with the defaults. This will open VirtualBox at the end of the installation.
 ![alttext](<./Screenshot 2025-09-06 at 1.28.33 PM.png>)

@@ -1,11 +1,11 @@
-# LAB-2
-## Scripts Chosen
+# LAB-2 SCRIPT EXECUTION & EXPLANATION
+## 📝 Scripts Chosen
 | Script          | Purpose     |
 |--------         |------------ |
 | first.sh        |  To demonstrate how to write and run a simple Bash script.  |
 | array_loop.sh   | To demonstrate how to use arrays in Bash.    |
 
-### Code 1-
+### 1️⃣ Code 1-
 ```bash
 #!/bin/bash 
 
@@ -36,12 +36,12 @@ echo "Color: $color"
 Which prints each color with the prefix "Color:".
 
 
-### Output 1-
+### 1️⃣ Output 1-
 
 ![alttext](<./Screenshot 2025-09-08 at 1.14.14 PM.png>)
 
 ---
-### Code 2-
+### 2️⃣ Code 2-
 ```bash
 #!/bin/bash
 echo "Hello, World!"
@@ -66,8 +66,10 @@ echo "My name is $name and I am $age years old."wq
 
 `$name` and `$age` are expanded to their values.
 
-### Output 2-
+### 2️⃣ Output 2-
 ![alttext](./2_script_output.png)
+
+---
 
 ## Extra Questions
 
