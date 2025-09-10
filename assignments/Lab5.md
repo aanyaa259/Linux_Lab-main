@@ -32,7 +32,7 @@ echo "Starter Kit Ready!"
 
 ![alttext](<./Screenshot 2025-09-10 at 1.33.48 PM.png>)
 
-## Purpose
+## ⁉️ Purpose
 The **purpose** of `starter_kit.sh` is to quickly set up a basic project structure so you don’t have to create folders and placeholder files manually each time.
 
 Specifically, it:
@@ -51,7 +51,8 @@ Specifically, it:
 
 👉 In short: it gives you a ready-to-use skeleton project — useful for assignments, coding projects, or any new work where you want a consistent structure.
 
-## Extra Questions
+---
+## 🟣 Extra Questions
 ### 1️⃣ What does mkdir -p do?
 * `mkdir -p` is a Linux/Unix command option for mkdir (make directory).
 

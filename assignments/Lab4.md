@@ -1,5 +1,5 @@
 # LAB-4 FILE & BACKUP AUTOMATION
-## Script `backup.sh`
+## 📝 Script `backup.sh`
 ```bash
 #!/bin/bash
 # ========================================
@@ -43,10 +43,10 @@ echo "✅ Backup completed."
 
 `cp "$file" "backup/...$timestamp.txt"` → copies file with timestamp added.
 
-## Output:
+## 🟨 Output:
 ![alttext](<./Screenshot 2025-09-10 at 11.49.26 AM.png>)
 
-## Extra Questions
+## 🟣 Extra Questions
 ### What is the difference between cp, mv, and rsync?
 ### 📂 1. `cp – Copy`
 

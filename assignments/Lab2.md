@@ -71,7 +71,7 @@ echo "My name is $name and I am $age years old."wq
 
 ---
 
-## Extra Questions
+## 🟣 Extra Questions
 
 ### What is the purpose of #!/bin/bash at the top of a script?
 * This is called the **shebang (#!)**.

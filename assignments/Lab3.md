@@ -74,7 +74,7 @@ done
 - Increments `i` by `step`.
 ---
 
-## ExtraQuestions
+## 🟣 ExtraQuestions
 ### 1️⃣ Difference between $1, $@, and $# in bash?
 
 1. `$1`
