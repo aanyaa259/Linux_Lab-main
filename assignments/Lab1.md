@@ -78,6 +78,7 @@ Creates an empty file.
 ```bash
 touch file.txt
 ```
+📌Output example:
 ![alttext](../images/tch.png)
 ---
 
@@ -104,6 +105,7 @@ mv oldname.txt newname.txt
 ```bash
 mv file.txt ~/Documents/     # Move file
 ```
+📌Output example:
 ![alttext](../images/mv.png)
 ---
 
@@ -113,6 +115,7 @@ mv file.txt ~/Documents/     # Move file
 rm file.txt          # Delete file
 rm -r folder_name    # Delete folder (recursively)
 ```
+📌Output example:
 ![alttext](../images/rm.png)
 ⚠️ **Be careful!** There is no undo.
 
@@ -174,7 +177,7 @@ Hello, World!
 ```bash
 whoami
 ```
-Output:
+📌Output example:
 ```bash
 aanya.
 ```
@@ -201,7 +204,7 @@ find . -name "*.md"
 🔍 Finds all `.md` files in current folder and subfolders.
 
 ---
-Output:
+📌Output example:
 ```bash
 ./assignments/Lab0.md
 ./assignments/Lab1.md
@@ -371,3 +374,72 @@ All arguments: mon tues
 Number of arguments: 2
 ```
 ---
+
+## Extra Questions
+### 1️⃣ What is the difference between `chmod` and `chown`?
+🔑 1. Difference between chmod and chown
+`chmod` → Change file permissions
+
+Controls what actions (read, write, execute) users can do on a file/directory.
+
+Example:
+```bash
+chmod 755 script.sh
+```
+
+* Owner: read/write/execute
+ 
+* Group: read/execute
+
+* Others: read/execute
+
+---
+
+`chown` → Change file owner
+
+Controls who owns a file or directory.
+
+Example:
+```bash
+chown alice:developers script.sh
+```
+
+Owner becomes alice.
+
+Group becomes developers.
+
+---
+### 📂 2. How to check current directory
+
+Use:
+```bash
+pwd
+```
+
+→ Prints the Present Working Directory.
+
+Example:
+```bash
+/home/username/projects
+```
+---
+### 👤 3. How to check current user
+
+Use:
+```bash
+whoami
+```
+
+→ Prints the username of the current user.
+
+Example:
+```bash
+aanya
+```
+
+You can also use:
+```bash
+id
+```
+
+→ Shows username, user ID, group ID, and group memberships.
