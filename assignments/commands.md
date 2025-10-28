@@ -1065,7 +1065,7 @@ This list shows the currently running processes, typically sorted by %CPU usage 
 
 
 Example Output :
-![alttext](./image.png)
+![alttext](./images/image.png)
 
 👉 Press q to quit.
 
@@ -1078,7 +1078,7 @@ Start a process with low priority:
 
 Output:
 
- ![alttext](./image-1.png)
+ ![alttext](./images/image-1.png)
 
 
 
@@ -1090,7 +1090,7 @@ renice 3 -p 3179
 
 Output:
 
-![alttext](./image-2.png)
+![alttext](./images/image-2.png)
 
 
 👉 Now process runs with higher priority.
@@ -1103,7 +1103,7 @@ Command:
 ```
 
 Example Output:
-![alttext](./image-3.png)
+![alttext](./images/image-3.png)
 
 👉 Shows process is allowed on cores 0,1,2,3.
 
@@ -1132,7 +1132,7 @@ Command:
 
 Example Output:
 
- ![alttext](./image-4.png)
+ ![alttext](./images/image-4.png)
 
 ## 🐛 8. Trace System Calls of a Process
 
@@ -1146,7 +1146,7 @@ Command:
 
 Example Output:
 
-![alttext](./image-6.png)
+![alttext](./images/image-6.png)
 
 👉 Great for debugging.
 
@@ -1172,7 +1172,7 @@ Command:
 
 Example Output:
 
- ![alttext](./image-5.png)
+ ![alttext](./images/image-5.png)
 
 👉 Shows CPU usage every 2 seconds, 3 times.
 
