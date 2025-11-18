@@ -17,7 +17,7 @@ pwd
 
 📌 Output example:
 ```bash
-/Users/aanya./Desktop/Linux_Lab-main
+![alttext](./image-1.png)
 ```
 ---
 
@@ -35,8 +35,7 @@ ls
 
 📌 Output example:
 ```bash
-assignments                     Lab3_SudoAdmin.md               Lab3-BasicLinuxCommands.md      Lab5-Exp1.md                    Lab7.md
-images                          Lab3_UserGroupAccess.md         Lab4-Exp1.md                    Lab6-Exp1.md                    README.md
+![alttext](./image-2.png)
 ```
 ---
 
@@ -51,10 +50,7 @@ cd folder_name
 Examples:
 
 ```bash
-cd Documents        # Go to Documents
-cd ..               # Go up one level
-cd /                # Go to root
-cd ~                # Go to home directory
+![alttext](./image-3.png)
 ```
 
 ---
@@ -69,6 +65,7 @@ Creates a new folder.
 mkdir new_folder
 ```
 
+![alttext](./image-4.png)
 ---
 
 ### `touch` – Create File
@@ -130,6 +127,7 @@ Displays content in terminal.
 ```bash
 cat file.txt
 ```
+![alttext](./image.png)
 
 ---
 
@@ -206,18 +204,7 @@ find . -name "*.md"
 ---
 📌Output example:
 ```bash
-./assignments/Lab0.md
-./assignments/Lab1.md
-./assignments/Lab2.md
-./assignments/Lab3.md
-./README.md
-./Lab6-Exp1.md
-./Lab7.md
-./Lab3_SudoAdmin.md
-./Lab3-BasicLinuxCommands.md
-./Lab5-Exp1.md
-./Lab3_UserGroupAccess.md
-./Lab4-Exp1.md
+.![alttext](./image-5.png)
 ```
 ### `grep` – Search Inside Files
 
